@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 1000px;
+    font: 15px 'Tahoma', 'Arial', sans-serif;
+    color: #191923;
+    background-color: #CACAC9;
+}
+
+nav{
+    width: 100%;
+    margin: 50px 20px 0px 160px;
+    height: 90px;
+    background: #ffffff;
+}
+
+nav ul {
+    padding-left: 30px;
+    float: left;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 32px 10px;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+}
+
+nav ul li a:first-of-type a:first-letter{
+    text-transform: uppercase;
+}
+
+nav ul li a:first-of-type a:last-of-type{
+    text-transform: lowercase;
+}
+
+nav ul li a:hover {
+    cursor: pointer;
+    color: #ec5353;
+}
+
+main{
+    margin: 0 auto;
+    float: left;
+    width: 1000px;
+}
+
+main section{
+    background: grey;
+    margin: 60px 3px;
+    width: 244px;
+    float: left;
+}
+
+main section header{
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+main section:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+main section img.zero-img{
+    width: 244px;
+    height: 194px;
+    padding-bottom: 1px;
+}
+
+main section img.first-img{
+    height: 194px;
+    width: 244px;
+    padding-bottom: 1px;
+}
+
+main section img.second-img{
+    height: 194px;;
+    width: 244px;
+    padding-bottom: 1px;
+}
+
+main section img.third-img{
+    height: 194px;
+    width: 244px;
+    padding-bottom: 1px;
+}
+
+main section header.first-header{
+    width: 225px;
+    height: 100px;
+}
+
+main section header.second-header{
+    width: 225px;
+    height: 100px;
+}
+
+main section header.third-header{
+    width: 225px;
+    height: 100px;
+}
+
+main section header.fourth-header{
+    width: 225px;
+    height: 100px;
+}
+
+main section header h1 {
+    padding-left: 5px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+main section header p {
+    padding: 5px;
+    font-size: 14px;
+
+}
+
+
+

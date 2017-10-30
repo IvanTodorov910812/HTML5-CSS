@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    margin-top: 40px;
+    margin-left: 80px;
+    width:  500px;
+    border: 1px solid #cccccc;
+    padding: 15px;
+}
+
+div{
+    background-color: #6495ed;
+    border: 1px solid #6495ed;
+    border-radius: 3px;
+    width: 70px;
+    padding: 15px 30px 15px 30px;
+    font-size: 16px;
+    margin-top: 2px;
+    text-align: center;
+    margin-right: 10px;
+}
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: left;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+    top: 100px; right: 0;
+}
+.no-floating{
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 120px;
+}
+
+p{
+    line-height: 20px;
+    font-size: 18px;
+    padding-bottom: 10px;
+    text-align: justify;
+    word-wrap: break-word;
+}

@@ -1,0 +1,60 @@
+@import "https://www.google.com/fonts#UsePlace:use/Collection:Vollkorn";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1200px;
+    color:#72aeb4;
+}
+
+h1{
+   color: #000000;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    font-size: 22px;
+}
+
+main{
+    margin-left: 50px;
+    width: 1200px;
+}
+
+main article{
+    float: left;
+}
+
+main article img{
+    margin: 10px 20px;
+    width: 200px;
+    height: 140px;
+    float: left;
+    padding: 5px;
+    border: 1px solid #628291;
+}
+
+main article header h1{
+    color: #72aeb4;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+main article header p{
+    padding-bottom: 20px;
+    text-align: justify;
+    font-size: 14px;
+    color: #000000;
+}
+
+main article header p.date{
+    color: #000000;
+    padding-bottom: 20px;
+    font-style: italic;
+}
+
+main article header a {
+    font-size: 14px;
+    color:#72aeb4;
+}

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v13/BVtM30trf7q_jfqYeHfjtA.woff) format('woff');
+}
+table {
+    border-spacing: 0px;
+    color: #333333;
+    margin: auto;
+}
+
+table tr th {
+    color: #ffffff;
+    background:#90b4d6;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 5px 30px 5px 10px;
+    font-size: 18px;
+    margin: 0;
+    text-transform: uppercase;
+}
+table td{
+    padding: 5px 30px 5px 10px;
+    font-size: 18px;
+    margin: 0;
+    text-align: left;
+    background: #84b3ad;
+    width: 150px;
+}
+tr:nth-child(even) td, tr:nth-child(even) th {
+   background:  #689ad8;
+}
+

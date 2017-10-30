@@ -1,0 +1,124 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font: 13px 'Tahoma', 'Helvetica', sans-serif;
+    background-color: #dedede;
+}
+
+main{
+    margin: 0 auto;
+    width: 1024px;
+}
+
+main h1 {
+    font-size: 28px;
+    color: #3DC1EF;
+    background-color: #e7e7e7;
+    padding: 10px;
+    text-transform: capitalize;
+    border-bottom: 2px dotted #dedede;
+}
+
+main h2 {
+    padding: 20px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+main p{
+    width: 70%;
+    float: left;
+    font-size: 12px;
+}
+
+button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    border-radius: 15px;
+    background-color: #3BBC96;
+    border: none;
+    float: right;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+form{
+    height: 140px;
+    padding: 20px 0;
+    border-bottom: 2px dotted #e7e7e7;
+    border-top: 2px dotted #e7e7e7;
+}
+
+.ahead-div{
+    padding: 20px 0;
+}
+
+.fa .fa-search{
+    position: relative;
+    left: 15px;
+}
+
+input{
+    padding-left: 5px;
+    width: 180px;
+    height: 20px;
+}
+
+.personal-details-left{
+    display: block;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.request-reservation-right{
+    float: right;
+    width: 50%;
+    display: block;
+    box-sizing: border-box;
+}
+input[type="number"]:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+@media all and (max-width: 1048px) {
+    .personal-details-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+    .request-reservation-right{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    .ahead-div{
+        display: block;
+        justify-content: center;
+
+    }
+
+    .ahead-div p:after{
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    .testing{
+        display: flex;
+        justify-content: center;
+    }
+}

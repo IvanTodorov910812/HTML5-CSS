@@ -1,0 +1,133 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    margin: 0 auto;
+    width: 800px;
+    padding: 100px;
+    background-color: #dedede;
+}
+
+form{
+    width: 70%;
+}
+
+.radio-buttons-container{
+    background-color: #dedede;
+}
+
+.radio-buttons-container label{
+    width: 50%;
+    float: left;
+}
+
+.radio-buttons-container:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.checkboxes-container{
+    background-color: #FFFFFF;
+    border-top: 7px solid #324E5B;
+    border-left: 7px solid #324E5B;
+}
+
+.checkboxes-container label{
+    width: 100%;
+    display: block;
+}
+
+main h1{
+    padding: 25px;
+    background-color: #FFFFFF;
+    text-transform: uppercase;
+    color: #324E5B;
+    border-top: 7px solid #324E5B;
+    border-right: 7px solid #324E5B;
+    margin-bottom: 30px;
+}
+
+main form{
+    margin: 0 auto;
+}
+
+.form-group1{
+    padding-top: 10px;
+}
+
+.form-group2 label{
+  padding: 10px;
+}
+
+.checkboxes-container input{
+    margin-right: 10px;
+}
+
+.form-group1 label{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.form-group input{
+    height: 30px;
+    border-top: 3px solid #324E5B;
+    border-left: 3px solid #324E5B;
+    width: 100%;
+}
+
+p{
+    margin-top: 30px;
+    margin-left: 120px;
+    margin-bottom: 5px;
+}
+
+a{
+    margin-left: 120px;
+}
+
+main p {
+    width: 130px;
+    text-transform: capitalize;
+}
+
+main a {
+    width: 130px;
+    padding-bottom: 20px;
+}
+
+main a:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+button{
+    margin-top: 15px;
+}
+
+button.cancel{
+    color: #FF4210;
+    margin-left: 200px;
+    width: 180px;
+    border-right: 3px solid #FF4210;
+    border-bottom: 3px solid #FF4210;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 60px;
+}
+
+button.save{
+    color: #324E5B;
+    margin-left: 30px;
+    width: 180px;
+    border-right: 3px solid #324E5B;
+    border-bottom: 3px solid #324E5B;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 60px;
+}

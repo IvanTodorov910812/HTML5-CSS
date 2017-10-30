@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin-top: 60px;
+    margin-left: 280px;
+    width: 1000px;
+    font: 16px 'Tahoma', sans-serif;
+}
+
+main > h1{
+    margin-right: 170px;
+    font: 40px 'Vollkorn', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    padding: 20px 0 0 0;
+}
+
+main section article{
+    border: 1px solid #EBEFF2;
+    margin: 10px 0 0 15px;
+    float: left;
+    width: 25%;
+    text-align: center;
+    height: 400px;
+}
+
+.price {
+    background-color: #ffffff;
+}
+
+main section article:hover > p{
+    background-color: #3DC1EF;
+}
+
+main section article:hover > p span{
+    background-color: #3DC1EF;
+}
+
+main section article:hover > button{
+    background-color: #3DC1EF;
+
+}
+
+main section article p{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 23px;
+    font-weight: normal;
+    background-color: #EBEFF2;
+    color: #000000;
+    padding: 20px 15px;
+}
+
+main section article button{
+    padding: 15px 30px;
+    width: 90%;
+    color: #ffffff;
+    background-color: #EBEFF2;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+
+main section article ul{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+    list-style: none;
+}
+
+main section article ul li {
+    font-size: 12px;
+    text-transform: capitalize;
+    color: #000000;
+    border-bottom: 1px solid #EBEFF2;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.status-relative.third{
+     position: relative;
+    top: 35px;
+     right: 0px;
+}
+
+.status-relative.second{
+    position: relative;
+    top: 85px;
+    right: 0px;
+}
+
+.status-relative.first{
+    position: relative;
+    top: 110px;
+    right: 0px;
+}

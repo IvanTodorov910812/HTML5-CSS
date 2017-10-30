@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(https://fonts.googleapis.com/css?family=Anton);
+
+body{
+    font: 14px 'Lato', sans-serif;
+}
+
+img{
+    background: linear-gradient(to bottom, #6afdc9 0%,#42c9ca 100%);
+    width: 100%;
+}
+
+main{
+    margin: 0 auto;
+    background-color: #dedede;
+}
+
+.main-div{
+    margin: 0 auto;
+    border-radius: 30px;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+
+.left-column{
+    width: 40%;
+    display: block;
+    float: left;
+}
+
+.right-column{
+    width: 40%;
+    display: block;
+    float: left;
+    padding-left: 30px;
+}
+

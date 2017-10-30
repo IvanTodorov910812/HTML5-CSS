@@ -1,0 +1,155 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.forgot{
+    text-align: left;
+    color: #ec5353;
+    width: 100%;
+}
+
+a{
+    padding-left: 3px;
+    color: #ec5353;
+}
+
+body{
+    background-color: #dedede;
+}
+
+main{
+    width: 800px;
+    margin:  0 auto;
+    padding: 100px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+main h1 {
+    font-weight: bold;
+    padding: 20px;
+    font-size: 24px;
+}
+
+main .heading-pa{
+    width: 100%;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #dedede;
+}
+
+
+main form:after{
+    clear: both;
+    content: '';
+    display: block;
+}
+
+main form{
+    background-color: #ffffff;
+}
+
+.left-column, .right-column{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+.form-group{
+    width: 200px;
+    text-align: left;
+}
+
+
+.form-group input[type="text"]{
+    height: 30px;
+    width: 250px;
+    padding-right: 10px;
+}
+
+.left-column{
+    padding-left: 80px;
+}
+
+.right-column{
+    padding-left: 40px;
+}
+
+.left-column h2 {
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    text-align: left;
+}
+
+.right-column h2{
+    font-weight: bold;
+    font-size: 18px;
+    width: 100%;
+    text-align: left;
+}
+
+i.fa.fa-check{
+    position: relative;
+    left: 240px;
+    bottom: 30px;
+    background-color: greenyellow;
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+i.fa.fa-times{
+    position: relative;
+    left: 240px;
+    bottom: 30px;
+    background-color: red;
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+input{
+    padding-left: 10px;
+}
+
+.login{
+    width: 100px;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: left;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    background-color: #AFDF67;
+    color: #000000;
+    border: none;
+    border-radius: 10px;
+}
+
+.login:hover{
+    cursor: pointer;
+}
+
+.createaccount{
+    width: 150px;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: left;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    background-color: #AFDF67;
+    color: #000000;
+    border: none;
+    border-radius: 10px;
+}
+
+.createaccount:hover{
+    cursor: pointer;
+}
+
+span{
+     float: right;
+     width: 180px;
+     font-size: 14px;
+}

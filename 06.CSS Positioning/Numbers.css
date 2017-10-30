@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font: 12px 'Arial', Helvetica, sans-serif;
+}
+
+main{
+    margin-top: 80px;
+    margin-left: 220px;
+    width: 900px;
+}
+
+main h1{
+    margin-left: 15px;
+    width: 860px;
+    line-height: 80px;
+    border-radius: 20px;
+    font-size: 18px;
+    background-color: #DDDDDD;
+    color: #9470DC;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+main article{
+    text-align: center;
+    margin-left: 20px;
+    border-radius: 15px;
+    float: left;
+    width: 22%;
+    background-color: #DDDDDD;
+    font-size: 14px;
+}
+
+main article:hover > .circle{
+    color: #9470DC;
+    background-color: #ffffff;
+}
+
+.circle{
+    text-align: center;
+    margin: 10px;
+    border-radius: 50%;
+    padding: 80px;
+    background-color: #9470DC;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+main article p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+main article:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+main article button{
+    text-transform: capitalize;
+    background-color: #a8a8a1;
+    color: #000000;
+    padding: 10px 40px;
+    border-radius: 15px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+main article button:hover{
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+}
